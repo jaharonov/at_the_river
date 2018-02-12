@@ -193,7 +193,7 @@ footer {
     font-size: 14px;
 }
 
-a:link {
+a:link  {
     color: lightgray;
     text-decoration: none;
 }
