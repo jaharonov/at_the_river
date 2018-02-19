@@ -2,7 +2,7 @@ myApp.controller('MaterialController', function($mdDialog, $mdToast) {
     console.log('MaterialController');
 
     var vm = this;
-
+    
     vm.showToast = function(event) {
         $mdToast.show(
             $mdToast.simple()

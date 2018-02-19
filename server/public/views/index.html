@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <title>THE WATER BETWEEN US</title>
+        <title>AT THE WATER</title>
         <!-- Angular and Angular-Route -->
         <script src="vendors/angular.min.js" charset="utf-8"></script>
         <script src="vendors/angular-route.min.js" charset="utf-8"></script>
@@ -27,40 +27,38 @@
        
         <div ng-controller="MaterialController as mc">
             
-            <!-- <header layout="row" layout-align="start center">
-
-                    <h1>
-                        THE WATER BETWEEN US
-                    </h1>
-            </header> -->
-                
-            
-            <div class="container">
-                
+    
                 <div id="post1" class="post">
-                        <div id="header" layout="row" layout-align="space-around center" flex>
+                        <div id="header" layout="column" layout-align="start center" flex>
                             
                             
                                 <h1>
-                                    THE WATER BETWEEN US
+                                    AT THE WATER
                                 </h1>
                             
-                            <!-- <p>At The River traces, first person, the filmmaker's relationship with his family 
-                            following his niece's unexplained death and
-                             his brother-in-law's false incarceration for her murder. Against the landscapes of addiction, trans identity and religion,
-                             Madsen Minax weaves the complexities and nuances of human connection, to create a relentless portrait of coping rural America.
-                             </p> -->
-                            </div>
+
+                            
+                        </div>
                     <span class="scroll-down"></span>
-                        
                 </div>
+                    <!-- <span class="scroll-down"></span> -->
+                        
+                
                 <md-content>
-                    <div id="firstp" layout="row" layout-align="space-around center" flex>
-                        <p>At The River traces, first person, the filmmaker's relationship with his family following his niece's unexplained death and
+                    <div id="firstp" layout="column" layout-align="space-around center" flex>
+                        <div>
+                            <p>At The River traces, first person, the filmmaker's relationship with his family following his niece's unexplained death and
                             his brother-in-law's false incarceration for her murder. Against the landscapes of addiction, trans identity and religion,
                             Madsen Minax weaves the complexities and nuances of human connection, to create a relentless portrait of coping rural
                             America.
-                        </p>
+                            </p>
+                        </div>
+                        <div>
+                            <md-button class="md-primary" ng-click="mc.showDialog($event)" class="md-raised" aria-label="Open Dialog"
+                        id="more">
+                        VIEW TRAILER
+                    </md-button>
+                        </div>
                     </div>
                 </md-content>
                 <div id="post2" class="post">
@@ -103,10 +101,10 @@
                     <!-- <div id="button" layout="row" layout-align="space-around center" flex ng-click="showDialog($event)">
                         <a class="btn btn-large btn-gray" href="#">VIEW TRAILER</a>
                     </div> -->
-                    <md-button class="md-primary md-raised" ng-click="mc.showDialog($event)" class="md-raised" aria-label="Open Dialog"
+                    <!-- <md-button class="md-primary md-raised" ng-click="mc.showDialog($event)" class="md-raised" aria-label="Open Dialog"
                         id="more">
                         VIEW TRAILER
-                    </md-button>
+                    </md-button> -->
                 </div>
                 <div id="post6" class="post">
                     
