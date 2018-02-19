@@ -11,16 +11,36 @@ myApp.controller('MaterialController', function($mdDialog, $mdToast) {
                 .position('top right')
                 .hideDelay(10000)
         );
-        // console.log('Clicked!')
-        // $mdDialog.show(
-        //     $mdDialog.alert()
-        //     .parent(angular.element(document.querySelector('#popupContainer')))
-        //     .title('Hi!!!')
-        //     .textContent('You can say other things')
-        //     .ariaLabel('Alert Dialog Demo')
-        //     .ok('Got it!')
-        //     .targetEvent(event)
-        // )
+    
     }
+    vm.showDialog = function (ev) {
+        
+        console.log('Clicked showDialog');
+        
+
+        $mdDialog.show({
+            controller: 'MaterialController as mc',
+            templateUrl: 'views/dialog.html',
+            parent: angular.element(document.body),
+            targetEvent: ev,
+            clickOutsideToClose: true
+
+        })
+    }
+
+
+    vm.hide = function () {
+        $mdDialog.hide();
+    };
+
+    vm.cancel = function () {
+        $mdDialog.cancel();
+    };
+
+    vm.answer = function (answer) {
+        console.log(answer);
+        $mdDialog.hide(answer);
+    };
+    
     vm.showToast();
 });

@@ -164,20 +164,25 @@ header {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 80px;
+    color: black;
 }
 
 p {
     font-size: 24px;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    opacity: 0.7;
     
     
 
 }
 
 footer {
-    height: 275px;
+    padding-top: 40px;
+    height: 225px;
     background-color: black;
    
     
@@ -193,7 +198,49 @@ footer {
     font-size: 14px;
 }
 
-a:link  {
+a  {
     color: lightgray;
     text-decoration: none;
 }
+
+a.btn,.btn {
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 1em; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: 300;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 1px solid;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+/* Radius */
+.btn-radius {
+  border-radius: 3px;
+}
+.btn-large {
+	font-size: 24PX;
+	padding: 0.25em 0.5em;
+}
+
+.btn-gray {
+	color: #808080;
+	border-color: #808080;
+}
+.btn-gray:hover {
+  background: #808080;
+  color: #fff;
+  border-color: #808080;	
+}
+
+md-button {
+  overflow-y: scroll;
+}
+
+
