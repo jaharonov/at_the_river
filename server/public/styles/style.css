@@ -116,7 +116,7 @@ body  {
   background-image: url("/images/woods2.png");
 }
 .scroll-down {
-	position: absolute;
+	position: relative;
 	left: 50%;
 	bottom: 50px;
 	display: block;
