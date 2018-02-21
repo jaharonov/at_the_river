@@ -162,7 +162,8 @@ body  {
 
 
 h1 {
-    font-size: 80px;
+    padding-top: 5px;
+    font-size: 68px;
     color: black;
     position: relative;
     top: 50%;
@@ -177,7 +178,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: distribute;
     opacity: 0.7;
     
     
