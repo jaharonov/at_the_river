@@ -40,7 +40,7 @@ body  {
 
 #post1 {
   background-image: url("/images/clouds.png");
-  max-height: 150%;
+  min-height: 150%;
 }
 
 #post2 {
@@ -170,8 +170,8 @@ body  {
 
 
 h1 {
-    padding-top: 5px;
-    font-size: 68px;
+    padding-top: -0.03em;
+    font-size: 2em;
     color: black;
     position: relative;
     top: 50%;
@@ -180,7 +180,13 @@ h1 {
     
     
 }
+@media (max-width: 767px) {
+h1 {
 
+    font-size: 1em;
+    top: 25%;
+    left: 50%;
+}
 p {
     font-size: 24px;
     padding-left: 50px;
