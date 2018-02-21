@@ -14,7 +14,7 @@ body  {
   text-align: center;
   font-weight: 700;
   background-color: black;
-  /* background-size: 100%; */
+  background-size: 100%;
   
 }
 @media (max-width: 767px) {
@@ -34,7 +34,7 @@ body  {
   max-width: 100%;
   min-height: 100%;
   max-height: 100%;
-  background-size: 100%;
+  /* background-size: 100%; */
   
 }
 
@@ -45,86 +45,107 @@ body  {
 
 #post2 {
   background-image: url("/images/cows.png");
+  background-size: 100%;
 }
 
 #post3 {
   background-image: url("/images/curtain.png");
+  background-size: 100%;
 }
 
 #post4 {
   background-image: url("/images/diner.png");
+  background-size: 100%;
 }
 
 #post5 {
   background-image: url("/images/flagwalk.png");
+  background-size: 100%;
 }
 
 #post6 {
   background-image: url("/images/frameinframe.png");
+  background-size: 100%;
 }
 
 #post7 {
   background-image: url("/images/garage.png");
+  background-size: 100%;
 }
 
 #post8 {
   background-image: url("/images/gasstation.png");
+  background-size: 100%;
 }
 
 #post9 {
   background-image: url("/images/graves.png");
+  background-size: 100%;
 }
 
 #post10 {
   background-image: url("/images/hemlock.png");
+  background-size: 100%;
 }
 
 #post11 {
   background-image: url("/images/interview.png");
+  background-size: 100%;
 }
 
 #post12 {
   background-image: url("/images/jesCU.png");
+  background-size: 100%;
 }
 
 #post13 {
   background-image: url("/images/lake.png");
+  background-size: 100%;
 }
 
 #post14 {
   background-image: url("/images/lumberstacks.png");
+  background-size: 100%;
 }
 
 #post15 {
   background-image: url("/images/mill.png");
+  background-size: 100%;
 }
 
 #post16 {
   background-image: url("/images/muscle.png");
+  background-size: 100%;
 }
 
 #post17 {
   background-image: url("/images/piano.png");
+  background-size: 100%;
 }
 
 #post18 {
   background-image: url("/images/prayer.png");
+  background-size: 100%;
 }
 
 #post19 {
   background-image: url("/images/snowyroad.png");
+  background-size: 100%;
 }
 
 #post20 {
   background-image: url("/images/trainsnow.png");
+  background-size: 100%;
 }
 
 #post21 {
   background-image: url("/images/water.png");
+  background-size: 100%;
 }
 
 #post22 {
   background-image: url("/images/woods2.png");
+  background-size: 100%;
 }
 .scroll-down {
 	position: relative;
