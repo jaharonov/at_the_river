@@ -16,7 +16,13 @@ body  {
   background-color: black;
   
 }
+@media (max-width: 767px) {
+.post {
 
+    background-attachment: initial;
+
+}
+}
 .post {
   padding-top: 21em;
   padding-bottom: 21em;
@@ -28,11 +34,12 @@ body  {
   min-height: 100%;
   max-height: 100%;
   background-size: 100%;
+  
 }
 
 #post1 {
   background-image: url("/images/clouds.png");
-  
+  max-height: 150%;
 }
 
 #post2 {
