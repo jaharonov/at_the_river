@@ -14,12 +14,13 @@ body  {
   text-align: center;
   font-weight: 700;
   background-color: black;
+  /* background-size: 100%; */
   
 }
 @media (max-width: 767px) {
 .post {
 
-    background-attachment: initial;
+    background-attachment: scroll;
 
 }
 }
