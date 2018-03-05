@@ -9,7 +9,7 @@ myApp.controller('MaterialController', function($mdDialog, $mdToast) {
             //text for update goes on the line below
                 .textContent('Upcoming screenings somewhere on some date!!!')
                 .position('top right')
-                .hideDelay(3000)
+                .hideDelay(6000)
         );
     
     }
