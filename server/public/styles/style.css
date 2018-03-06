@@ -6,14 +6,14 @@
     color: white;
     font-size: 2em;
 }
-body  {
+html, body  {
   margin: 0;
   color: black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 60px;
   text-align: center;
   font-weight: 500;
-  background-color: black;
+  /* background-color: black; */
   height: 100%;
   
 }
@@ -37,7 +37,7 @@ body  {
   /* background-size: 100%; */
   /* background-size: cover; */
   background-size: cover;
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   
@@ -60,110 +60,110 @@ body  {
 
 #post3 {
   background-image: url("/images/curtain.png");
- font-size: 80px;
+ font-size: 120px;
   /* min-height: 150%; */
 }
 
 #post4 {
   background-image: url("/images/diner.png");
- font-size: 80px;
+ font-size: 120px;
   /* min-height: 150%; */
 }
 
 #post5 {
   background-image: url("/images/lumberstacks.png");
-font-size: 80px;
+font-size: 120px;
   /* background-size: 100%; */
 }
 
 #post6 {
   background-image: url("/images/frameinframe.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post7 {
   background-image: url("/images/garage.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post8 {
   background-image: url("/images/gasstation.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post9 {
   background-image: url("/images/graves.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post10 {
   background-image: url("/images/hemlock.png");
-  font-size: 80px;
+  font-size: 120px;
   /* background-size: 100%; */
 }
 
 #post11 {
   background-image: url("/images/interview.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post12 {
   background-image: url("/images/jesCU.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post13 {
   background-image: url("/images/lake.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post14 {
   background-image: url("/images/flagwalk.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post15 {
   background-image: url("/images/mill.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post16 {
   background-image: url("/images/muscle.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post17 {
   background-image: url("/images/piano.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post18 {
   background-image: url("/images/prayer.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post20 {
   background-image: url("/images/trainsnow.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 #post21 {
   background-image: url("/images/snowyroad.png");
   /* background-size: 100%; */
-  font-size: 80px;
+  font-size: 120px;
 }
 
 /* #post22 {
