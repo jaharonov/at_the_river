@@ -52,7 +52,9 @@ html, body  {
   /* background-size: auto; */
   
 }
-
+#getbig {
+  font-size: 120px;
+}
 #post2 {
   background-image: url("/images/cows.png");
   
