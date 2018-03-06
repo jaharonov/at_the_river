@@ -35,14 +35,15 @@ body  {
   min-height: 100%;
   max-height: 100%; */
   /* background-size: 100%; */
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 100% auto;
   
 }
 
 #post1 {
   background-image: url("/images/clouds.png");
   /* min-height: 150%; */
-  background-size: auto;
+  /* background-size: auto; */
   
 }
 
@@ -148,12 +149,6 @@ font-size: 80px;
   background-image: url("/images/prayer.png");
   /* background-size: 100%; */
   font-size: 80px;
-}
-
-#post19 {
-  background-image: url("/images/snowyroad.png");
-  font-size: 80px;
-  /* background-size: 100%; */
 }
 
 #post20 {
