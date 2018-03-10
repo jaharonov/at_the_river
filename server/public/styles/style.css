@@ -17,6 +17,111 @@ html, body  {
   height: 100%;
   
 }
+h1{
+   
+    padding-top: -0.5em; 
+    font-size: 1.2em; 
+    text-align: center;
+    font-size: 50%;
+    color: black;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* padding-bottom: 50%; */
+    
+    
+}
+@media (max-width: 767px) {
+h1 {
+
+    font-size: 0.8em;
+    top: 25%;
+    left: 50%;
+}
+}
+p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    text-justify: distribute;
+    /* opacity: 0.7; */
+    
+    
+
+}
+
+footer {
+    padding-top: 40px;
+    height: 225px;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+img {
+  max-height: 200%;
+  max-height: auto;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+#footer {
+    font-size: 14px;
+}
+
+a  {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a.btn,.btn {
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 1em; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: 300;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 1px solid;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+/* Radius */
+.btn-radius {
+  border-radius: 3px;
+}
+.btn-large {
+	font-size: 24PX;
+	padding: 0.25em 0.5em;
+}
+
+.btn-gray {
+	color: #808080;
+	border-color: #808080;
+}
+.btn-gray:hover {
+  background: #808080;
+  color: #fff;
+  border-color: #808080;	
+}
+
+md-button {
+  overflow-y: scroll;
+  
+}
+
 @media (max-width: 767px) {
 .post {
 
@@ -45,16 +150,17 @@ html, body  {
 
   
 }
-
+#big {
+  min-height: 200px;
+}
 #post1 {
   background-image: url("/images/clouds.png");
   /* min-height: 150%; */
   /* background-size: auto; */
+  /* font-size: 120px; */
   
 }
-#getbig {
-  font-size: 120px;
-}
+
 #post2 {
   background-image: url("/images/cows.png");
   
@@ -65,8 +171,9 @@ html, body  {
 
 #post3 {
   background-image: url("/images/curtain.png");
- font-size: 120px;
-  /* min-height: 150%; */
+ font-size: 60px;
+ background-attachment: scroll;
+  
 }
 
 #post4 {
@@ -77,10 +184,15 @@ html, body  {
 
 #post5 {
   background-image: url("/images/lumberstacks.png");
-font-size: 120px;
+  font-size: 60px;
+  background-attachment: scroll;
+  
   /* background-size: 100%; */
 }
-
+ #post5 p {
+   vertical-align: text-top;
+   padding-bottom: 45%;
+ }
 #post6 {
   background-image: url("/images/frameinframe.png");
   /* background-size: 100%; */
@@ -219,98 +331,3 @@ font-size: 120px;
 }
 
 
-h1 {
-    padding-top: -0.03em;
-    font-size: 1.2em;
-    color: black;
-    position: relative;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    
-    
-}
-@media (max-width: 767px) {
-h1 {
-
-    font-size: 1em;
-    top: 25%;
-    left: 50%;
-}
-}
-p {
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: justify;
-    text-justify: distribute;
-    /* opacity: 0.7; */
-    
-    
-
-}
-
-footer {
-    padding-top: 40px;
-    height: 225px;
-    background-color: black;
-    color: white;
-   
-    
-}
-
-.logo {
-    height: 100px;
-    width: auto;
-    padding: 10px;
-}
-
-#footer {
-    font-size: 14px;
-}
-
-a  {
-    color: darkgray;
-    text-decoration: none;
-}
-
-a.btn,.btn {
-  margin-right: 1em; /* remove this while use*/
-  margin-bottom: 1em; /* remove this while use*/
-	display: inline-block;
-	outline: none;
-	*zoom: 1;
-	text-align: center;
-	text-decoration: none;
-	font-family: inherit;
-	font-weight: 300;
-	letter-spacing: 1px;
-	vertical-align: middle;
-	border: 1px solid;
-	transition: all 0.2s ease;
-	box-sizing: border-box;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
-}
-/* Radius */
-.btn-radius {
-  border-radius: 3px;
-}
-.btn-large {
-	font-size: 24PX;
-	padding: 0.25em 0.5em;
-}
-
-.btn-gray {
-	color: #808080;
-	border-color: #808080;
-}
-.btn-gray:hover {
-  background: #808080;
-  color: #fff;
-  border-color: #808080;	
-}
-
-md-button {
-  overflow-y: scroll;
-  
-}
