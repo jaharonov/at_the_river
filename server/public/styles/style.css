@@ -39,6 +39,21 @@ h1 {
     top: 25%;
     left: 50%;
 }
+p{
+  font-size: 16px;
+}
+.post {
+
+    background-attachment: fixed;
+
+}
+  #post5 {
+    padding-top: 50px;
+  }
+ #post5 p {
+   vertical-align: text-top;
+   
+ }
 }
 p {
     font-size: 20px;
@@ -122,13 +137,7 @@ md-button {
   
 }
 
-@media (max-width: 767px) {
-.post {
 
-    background-attachment: fixed;
-
-}
-}
 .post {
   padding-top: 21em;
   padding-bottom: 21em;
@@ -153,6 +162,7 @@ md-button {
 #big {
   
   font-size: 120px;
+  min-height: 200px;
 }
 #post1 {
   background-image: url("/images/clouds.png");
