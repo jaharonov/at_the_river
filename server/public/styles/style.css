@@ -151,7 +151,8 @@ md-button {
   
 }
 #big {
-  min-height: 200px;
+  
+  font-size: 120px;
 }
 #post1 {
   background-image: url("/images/clouds.png");
