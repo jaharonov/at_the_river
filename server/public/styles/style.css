@@ -187,14 +187,11 @@ md-button {
   
 }
 
-#post4 {
-  background-image: url("/images/diner.png");
- font-size: 120px;
-  /* min-height: 150%; */
-}
+
+
 
 #post5 {
-  background-image: url("/images/lumberstacks.png");
+  background-image: url("/images/lumberstacks2.png");
   font-size: 60px;
   background-attachment: scroll;
   
