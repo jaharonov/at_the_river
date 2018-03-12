@@ -7,7 +7,7 @@ myApp.controller('MaterialController', function($mdDialog, $mdToast) {
         $mdToast.show(
             $mdToast.simple()
             //text for update goes on the line below
-                .textContent('Upcoming screenings somewhere on some date!!!')
+                .textContent('COMING 2019')
                 .position('top right')
                 .hideDelay(6000)
         );
