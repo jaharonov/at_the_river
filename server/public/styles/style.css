@@ -20,7 +20,7 @@ html, body  {
 h1{
    
     padding-top: -0.5em; 
-    font-size: 1.2em; 
+    
     text-align: center;
     font-size: 50%;
     color: black;
@@ -30,8 +30,8 @@ h1{
     transform: translateX(-50%) translateY(-50%);
     /* padding-bottom: 50%; */
     
-    
 }
+
 @media (max-width: 767px) {
 h1 {
 
@@ -39,9 +39,7 @@ h1 {
     top: 25%;
     left: 50%;
 }
-p{
-  font-size: 16px;
-}
+
 .post {
 
     background-attachment: fixed;
