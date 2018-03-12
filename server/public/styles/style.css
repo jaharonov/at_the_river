@@ -181,31 +181,37 @@ md-button {
 #post3 {
 padding-right: 5%;
 padding-left: 5%;
-padding-top: 10%;
-padding-bottom: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
  
   
 
 
-#curtain{
+/* #curtain{
   
-    width: 100%;
-    height: auto;
     
     
-}
+    
+} */
 
 md-content {
   
   font-weight: 400;
 }
 
+.wtext {
+  
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 #post5 {
-  padding-right: 5%;
+padding-right: 5%;
 padding-left: 5%;
-padding-top: 10%;
-padding-bottom: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
  /* #post5 p {
    vertical-align: text-top;
